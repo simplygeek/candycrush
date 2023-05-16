@@ -1,5 +1,10 @@
 <html>
-  <body>
-    <button onclick="window.location.href = 'tel:+18005551234'">Call Now</button>
+  <script>
+    function redirectToTelLink() {
+      window.location.href = "tel:123-456-7890";
+    }
+  </script>
+   <body onload="redirectToTelLink()">
+    <h1>Redirecting to a Tel Link on Page Load</h1>
   </body>
 </html>
